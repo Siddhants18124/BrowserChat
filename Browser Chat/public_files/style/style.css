@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    background-color: #DDFFBB;
+}
+.head-cont{
+    border-radius: 10px;
+    padding: 1%;
+}
+.git-cont{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1%;
+    color: black;
+    font-size: 25px;
+}
+.head-cont > h3{
+    font-size: 1.4rem;
+    color: black;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 400;
+}
+/* .chat-window{
+    background-color: red;
+} */
+.userBox{
+    background-color: #609966;
+    float: left;
+    width: 100%;
+    height: 120px;
+    border: 1px solid #dedede;
+    border-right: transparent;
+    padding: 5px 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.userBox > h3{
+    font-size: 1.5rem;
+    margin-left: 40vw ;
+}
+.chat-box{
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 10px;
+    border: 1px solid #dedede;
+    border-bottom: transparent;
+    height: 250px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    position: relative;
+	background-color: #C7E9B0;
+}
+.chat-app {
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 25px;
+    border: 1px solid #dedede;
+    background: #ABC4AA;
+ 
+}
+.chatapp-list {
+	list-style:none;
+	display:table;
+	width:100%;
+
+}
+.chatapp-list li {
+    float: left;
+    margin-right: 25px;
+    line-height: 18px;
+    font-family: sans-serif;
+
+}
+.chatapp-list li:first-child {
+	width:10%;
+	font-size:13px;
+	line-height:52px;
+
+}
+.chatapp-list li:nth-child(2) {
+	width:57%;
+
+}
+.chatapp-list li:last-child {
+	width:15%;
+	margin-right:0;
+	line-height:25px;
+
+}
+ .fileicon-box {
+    overflow: hidden;
+    width: 200%;
+	position:relative;
+    margin-left: 60px;
+}
+.fileicon-box:before {
+    content: "\f03e";
+    font-family: fontAwesome;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+	pointer-events:none;
+}
+.sendFile {
+    opacity: 0;
+} 
+.medialist{
+    display: flex;
+}
+.inputField {
+    width: 100%;
+    height: 52px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 1px;
+    background-color: white;
+}
+.btnSend {
+    padding: 5px 10px;
+    background: #DDFFBB;
+    border: none;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* checking */
+.outputBox {
+    display: table;
+    width: 100%;
+}
+.chatBox-wrapper {
+    float: left;
+    width: 100%;
+}
+ .medialist li:last-child .fileicon-box:before {
+    content: "\f0c6";
+}
+.medialist {
+    list-style: none;
+    display: table;
+    width: 100%;
+}
+.medialist li {
+    width: 27px !important;
+    float: left;
+    line-height: 21px !important;
+    margin: 0;
+    margin-right: 4px;
+}
+.medialist li:last-child {
+    margin-right: 0 !important;
+} 
+.send-img {
+    width: 190px;
+    padding: 5px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    box-shadow: 0 0 9px 0px #eaeaea;
+}
+.fileElement a {
+    color: #16baa2;
+    text-decoration: none;
+}
